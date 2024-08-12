@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="asp.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Bosh sahifa</a></li>
+                    <li><a href="about.html">Biz haqimizda</a></li>
+                    <li><a href="course.html">Mahsulotlarimiz</a></li>
+                    <li><a href="blog.html">Narxlar</a></li>
+                    <li><a href="contact.html">Bog'lanish</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Pishiriqlarimizning! Narxlari</h1>
+    </section>
+
+    <!-- ------- blog page content ------- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="qo'vurdoq.jpg">
+                <h2>Bizning taomlarimiz!</h2>             
+                <p>Bizda nafaqat shirinliklar balki toamlar ham tayyorlaymiz! misol uchun qo'vurdoq ham tayyorlaymiz bundan tashqari chuchvara va somsa hamirini ham tayyorlaymiz! Bizning taomlarimiz mazali tedza yetib borishiga kafolat bera olamiz. Bizga buyurtma bering adashmaysiz!
+                    Qo'vurdoqning ustini mijozimiz hoxishiga qarab bezatamiz. 
+                </p>
+            </div>
+            <div class="blog-right">
+                <h3>Narxlar haqida</h3>
+                <div>
+                    <span>Tvorojniy -</span>
+                    <span>300.000 so'm</span>
+                </div>  
+                <div>
+                    <span>Snikers -</span>
+                    <span>280.000 so'm</span>
+                </div>
+                <div>
+                    <span>Somsa hamiri-</span>
+                    <span>30.000 so'm</span>
+                </div>
+                <div>
+                    <span>Fotiha to'rti-</span>
+                    <span>400.000 so'm</span>
+                </div>
+                <div>
+                    <span>Mars-</span>
+                    <span>300.000 so'm</span>
+                </div>
+                <div>
+                    <span>Rulet-</span>
+                    <span>200.000 so'm</span>
+                </div>
+                <div>
+                    <span>Lakomka-</span>
+                    <span>300.000 so'm</span>
+                </div>
+                <div>
+                    <span>Qo'vurdoq-</span>
+                    <span>kishi soniga qarab</span>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- ----Footer---- -->
+    <section class="footer">
+        <h4>Biz haqimizda</h4>
+        <p>Bizning saytimizda siz telegram kanalimizdagi yoki undan tashqari yana boshqa pishiriqlarni ko'rishingiz mumkin!  Agarda pishiriqlarimiz sizga ma'qul kelsa undabuyurtma bering! <br> Biz o'z mahsulotlarimizni vaqtida va mazali yetib borishiga kafolat beramiz!</p>
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook-f"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <a href="https://t.me/+yZgT4yFe5aUzYjY6" target="_blank"><i class="fa fa-brands fa-telegram"></i></a>
+        </div>
+        <p>Made width  by Abdug'ofuro'va Soliha</p>
+    </section>
+
+<!-- -------------JavaScript for Toggle Menu-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
